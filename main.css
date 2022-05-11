@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    font-family: 'Century Gothic';
+}
+header{
+    height: 300px;
+    color: #eee;
+    background-image: url('parallax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{
+    color: #333;
+    background-color: #ddd;
+    font-weight: bold;
+}
+footer{
+    height: 160px;
+    background-image: url('parallax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.q{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: -86px 0px;
+}
+.w{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    
+}
+.e{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: 0px -13px;
+    
+}
+.img1{
+    background-image: url('venus.jpg');
+}
+.img2{
+    background-image: url('earth.jpg');
+}
+.img3{
+    background-image: url('jupiter.jpg');
+}
+.img4{
+    background-image: url('spaceship1.jpg');
+    background-position: -112px 0px;
+}
+.img5{
+    background-image: url('spaceship2.jpg');
+    background-position: -50px 0px;
+}
+.img6{
+    background-image: url('spaceship3.jpg');
+    background-position: -53px 0px;
+}
+.img7{
+    background-image: url('spaceman1.jpg');
+}
+.img8{
+    background-image: url('spaceman2.jpg');
+}
+.img9{
+    background-image: url('spaceman3.jpg');
+}
+.qq, .ww, .ee, .footer{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+    position: relative;
+    top: -10px;
+}
+.buttons{
+    margin-left: 30px;
+    border-radius: 20%;
+    border: white solid 5px;
+    padding: 10px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.mainp{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.mains{
+    text-align: center;
+}
+.q, .w, .e{
+    margin-left: 10px;
+    
+}
+.up{
+    padding-top: 50px;
+}
+.down{
+    padding-bottom: 50px;
+}
+
+.facebook:hover{
+    background-color: #2b5297;
+}
+.youtube:hover{
+    background-color: #c30000;
+}
+.whatsapp:hover{
+    background-color: #26a614;
+}
+.snapchat:hover{
+    background-color: #fdfd03;
+}
+.z{
+    transition: 1s;
+    border-radius: 100%;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+.footer{
+    padding-top: 35px;
+}
+.buttons > img{
+    width: 40px;
+}
+.bq:hover .sputnik{
+    transform: scale(1.2);
+   
+
+}
+.bw:hover .rocket{
+    transform: translateY(-5px);
+    
+
+}
+.be:hover .star{
+    transform: rotate(360deg);
+    
+
+}
+.sputnik, .star, .rocket{
+    transition: 1s;
+}
+.titlesolar{
+    display: flex;
+    transition: 1s;
+}
+.titlevenus, .titleearth, .titlejupiter{
+    text-align: center;
+    position: relative;
+    margin-top: 90%;
+    display: none;
+    font-weight: normal;
+    transition: 1s;
+    margin-left: -60%;
+}
+.img1:hover .titlevenus{
+    display: block;
+    transform: translate(20%);
+}
+.img2:hover .titleearth{
+    display: block;
+    transform: translate(20%);
+}
+.img3:hover .titlejupiter{
+    display: block;
+    transform: translate(20%);
+}
+.black{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.black:hover{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+
+}
+
+.instagram > .ii{
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+.black > p{
+    padding-top: 25%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.wq > img{
+    height: 20px;
+    width: 30px;
+    visibility: hidden;
+}
+.wq > p{
+    color: whitesmoke;
+    padding-top: 25%;
+    font-size: 25px;
+    visibility: hidden;
+}
+.wq{
+    height: 180px;
+    width: 180px;
+    
+    margin: 0 auto;
+    margin-top: 5%;
+    transition: 1s;
+    visibility: visible;
+}
+.chertochki {
+    height: 180px;
+    width: 180px;
+    border: black dashed 3px;
+    margin: 0 auto;
+    margin-top: 5%;
+    transition: 1s;
+    visibility: hidden;
+}
+.chertochki:hover{
+    visibility: visible;
+
+}
+.wq:hover{
+    background-color: rgba(24, 24, 24, 0.7);;
+    border: none;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+.im2{
+    height: 50px;
+    width: 50px;
+
+}
+.im2:hover{
+    visibility: visible;
+}
+.wq:hover .pwq{
+
+    visibility: visible;
+
+}
+.wq:hover .im{
+    visibility: visible;
+}
+.black:hover .instagram{
+    visibility: visible;
+}
+.black:hover .bp{
+    visibility: visible;
+}

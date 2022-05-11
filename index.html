@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p class="head">Космос: неизведанный мир</p>
+        <div class="button" id="a">
+            <div class="buttons bq">
+                <img src="sputnik.png" alt="sputnik" class="sputnik">
+                <a href="#solar">Солнечная система</a>
+            </div>
+            <div class="buttons bw">
+                <img src="rocket.png" alt="rocket" class="rocket">
+                <a href="#te">Техника</a>
+            </div>
+            <div class="buttons be">
+                <img src="star.png" alt="star" class="star">
+                <a href="#stars">Земные звёзды</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mains" id="solar">
+            <p class="mainp up">Солнечная система</p>
+            <div class="qq">
+                <div class="img1 q"><p class="titlevenus t">Венера</p></div>
+                <div class="img2 q"><p class="titleearth t">Земля</p></div>
+                <div class="img3 q"><p class="titlejupiter t">Юпитер</p></div>
+            </div>
+        </div>
+        <div class="mains" id="te">
+            <p class="mainp">Техника</p>
+            <div class="ww">
+                <div class="img4 w"><div class="wq">
+                    <p class="pwq">SpaceX Dragon</p>
+                    <img src="usa.svg" alt="ship" class="im">
+                </div></div>
+                <div class="img5 w"><div class="wq">
+                    <p class="pwq">Dream Chaser</p>
+                    <img src="usa.svg" alt="ship" class="im">
+                </div></div>
+                <div class="img6 w"><div class="wq">
+                    <p class="pwq">Клипер</p>
+                    <img src="russia.png" alt="ship" class="im">
+                </div></div>
+            </div>
+        </div>
+        <div class="mains" id="stars">
+            <p class="mainp">Земные звёзды</p>
+            <div class="ee down">
+                <div class="img7 w"><div class="wq">
+                    <p class="pwq">Ричард<br>Арнольд<br></p><a href="https://www.instagram.com/astro_christina/" class="im"></a><img src="instagram-colourful-icon.png" alt="instagram" class="im"></div></div>
+                <div class="img8 e"><div class="wq">
+                    <p class="pwq">Кристина<br>Хэммок<br></p><img src="instagram-colourful-icon.png" alt="instagram" class="im"></div></div>
+                <div class="img9 e"><div class="wq">
+                    <p class="pwq">Олег<br>Артемьев<br></p><img src="instagram-colourful-icon.png" alt="instagram" class="im"></div></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="facebook z"><img src="facebook.png" alt="сеть1" class="img22"></div>
+            <div class="youtube z"><img src="youtube.png" alt="сеть2" class="img22"></div>
+            <div class="whatsapp z"><img src="whatsapp.png" alt="сеть3" class="img22"></div>
+            <div class="snapchat z"><img src="snapchat.png" alt="сеть4" class="img22"></div>
+        </div>
+    </footer>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("#a").on("click","a", function (event) {
+    event.preventDefault();
+    var id = $(this).attr('href'),
+    top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1000);
+    });
+  });
+  </script>
+</body>
+</html>
